@@ -1,0 +1,25 @@
+AMAZON REKOGNITION
+
+Amazon Rekognition (AR) is a fully managed, deep-learning-based image recognition service. The service can detect things or labels in an image.
+With most AR APIs, the training has been done.
+
+Image API operations:
+- CompareFaces
+- DetectFaces
+- DetectLabels
+- DetectModerationLabels
+- DetectProtectiveEquipment
+- DetectText
+- RecognizeCelebrities
+
+Video API operations:
+- GetCelebrityRecognition
+- GetContentModeration
+- GetFaceDetection
+- GetFaceSearch
+- GetLabelDetection
+- GetPersonTracking
+- GetSegmentDetection
+- GetTextDetection
+
+You can train Rekognition with your own labeled datasets using: CreateDataset and DetectCustomLabels
